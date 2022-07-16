@@ -1,0 +1,7 @@
+.box {
+    border: 5px solid red;
+    
+}
+.container {
+    display:flex 
+}

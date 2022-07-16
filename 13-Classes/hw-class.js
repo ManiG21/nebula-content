@@ -111,8 +111,10 @@ const musc1 = new Muscian('Ray Charles', 21, 'Piano','prodigy')
             this.town = town; 
             this.theme = theme;
         }
-        // addEmployeetoClass(Muscian, Chef){
+        showResturantCount
         
+        
+        // addEmployeetoClass(Muscian, Chef){
         // }
     }
 

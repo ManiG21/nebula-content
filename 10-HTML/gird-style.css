@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(200px, auto);
+    grid-template-rows: auto;
+    border: 20px;
+    background-color: red;
+}
+
+h1{
+    border solid;
+}

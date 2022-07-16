@@ -1,0 +1,33 @@
+const favoriteMovives = ["Inception", "Infinity War", "Shreak" ]
+
+const myArray = [10, 9, "grab this"];
+
+console.log(holsString)
+
+
+const newArray = ['blue', 'red', 'green']
+
+const rugRats = ["Tommy", "Angela", "Phil", "Susie"]
+
+//const lastElement = numbersArray[numbersArray.length -1]
+
+//console.log rugRats(1)
+//console.log()
+//console.log()
+//console.log()
+
+const myLuckyNumbers = [5, 3, 2, 11, 29 ];
+
+console.log[4] /= 3
+console.log[2] *= 3
+console.log(myLuckyNumbers)
+
+const myArray1 = ["here", "we", "are"];
+
+myArray1.push("ok", "Let's go")
+
+
+
+myArray1.pop();
+
+console.log(myArray1)

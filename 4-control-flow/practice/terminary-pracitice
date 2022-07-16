@@ -1,0 +1,26 @@
+// USE FAKE INFO FOR THE FOLLOWING EXERCISE
+
+// Initialize a variable called CreditCardNum, set it equal to a fake credit card string-number
+const CreditCardNum = 635477778888
+// Initialize a variable called last4SS, set it equal to a 4 string-numbers (dont use your real SS last 4!)
+const last4SS = "2321"
+// Initialize a variable called userId, set it equal to a fake user ID
+
+const userId = 222613
+// Initialize a variable called password, set it equal to a fake password
+
+const password = "Pizza"
+
+// Create two last variables called inputId & inputPass, initially set them as the same values as userId and password
+
+const inputId =  222613
+
+const inputPass = "Pizza"
+
+
+// Write a ternary statement that checks if userId is equal to inputId and if password is also equal to inputPass
+
+let result = userId + password === inputId + inputPass ? "Those are correct" : "inputs are in valid"
+// If they are the same, log the credit card num and the last4SS
+console.log(result)
+// If not, log 'incorrect username or id'

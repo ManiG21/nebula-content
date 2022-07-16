@@ -26,7 +26,7 @@ for (let i=0; i<celebs.length;i++){
 for (let i = 0; i < celebs.length; i++){
     fnames.push(celebs[i].split(" ")[0])
 }
-
+const fName =
 console.log(fNames)
 
 // 6.   Use your celebrity array for this question

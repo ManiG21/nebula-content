@@ -5,6 +5,7 @@ const favThings = ["Video games", "Basketball", "Cooking"]
 favThings.push("Weight Lift")
 // 3.   Reverse the order of the array (remember, if needed use MDN)
 const reversed = favThings.reverse()
+
 //      Use this array for questions 4-11: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
    const daysWeek = ['Sunday', 'Monday', 'Tuesday', 'Wedsnesday', 'Thursday', 'Friday', 'Saturday']
 // 4.   log the length of the array
@@ -20,8 +21,8 @@ daysWeek.shift();
 const daysWeekpop = daysWeek.pop();
 console.log(daysWeekpop)
 // 9.   Add 'Saturday' back to the end of the array and log the new array
-const daysWeek2 = daysWeek.push('Saturday')
-console.log(daysWeek2)
+daysWeek.push('Saturday')
+console.log(daysWeek)
 //10.   Replace 'Thursday' with 'Friday Junior'
 daysWeek[4] = "Friday Junior";
 //11.   Extract your favorite day from the array and log the string: 'My favorite day of the week is (day)'
@@ -29,6 +30,7 @@ console.log("My favorite day of the week " .concat(daysWeek[3]))
 //12.   Combine these two arrays together
 let phone = ['iphone', 'android']
 let laptop = ['MacBook', 'HP', 'Dell']
-const devices = phone +  laptop
+const devices = phone.concat(laptop)
+console.log(devices)
 //13.   Write a line of code to test if something is an array or not
- console.log(devices)
+ 
