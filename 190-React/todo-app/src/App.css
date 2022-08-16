@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif
+  }
+
+  body{
+    background: linear-gradient(
+      90deg, 
+      rgb(7, 0, 16) 25%, 
+      rgb(78, 88, 94) 50%
+    )
+  }
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 600px;
+    /* background: #f9f4f4; */
+    text-align: center;
+    margin: 100px auto;
+    border: #f80303 solid 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+  }
+
+  h1{ 
+    margin: 32px 0;
+    font-size: 40px;
+    text-shadow: 4px 4px #fff;
+  }
+
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+
+  .todo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .todo-input::placeholder {
+    color: white;
+  }
+  
+  .todo-input:focus {
+    border: 4px solid #ff0707;
+  }
+  
+  .todo-button {
+    padding: 16px;
+    border: red solid 4px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 25%,
+      rgb(67, 76, 76) 50%
+    );
+    color: rgb(245, 29, 5);
+    text-transform: capitalize;
+  }
+
+  .todo-input.edit {
+    border: 2px solid #f80303;
+  }
+  
+  .todo-button.edit {
+    background: linear-gradient(
+      90deg,
+      rgb(247, 3, 3) 0%,
+      rgb(5, 213, 255) 100%
+    );
+    padding: 16px 22px;
+  }
+
+  .todo-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 118, 20, 1) 0%,
+      rgba(255, 84, 17, 1) 100%
+    );
+  
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+  }
+
+  .todo-row:nth-child(2n+1) {
+    background: linear-gradient(
+      90deg,
+      rgb(243, 5, 5) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .edit-icon {
+    color: #fff;
+  }
