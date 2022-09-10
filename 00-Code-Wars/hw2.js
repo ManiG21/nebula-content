@@ -33,17 +33,33 @@ function sumDigits(number) {
 // The example above assumes that the function is run in year 2020.
 
 function addUsername(list) {
-    //   forEach
-    //   concat
-    // new variable
-
-
-
+    // thank you for checking out the Coding Meetup kata :)
+      //   forEach
+      //   concat
+      // new variable
+    for (let i =0; i< list.length; i++){
+      let person = list[i]
     let year = new Date().getFullYear()
-    let newYear = 2020 - list.age
-    list.username = `${list.firstName}`.toLowerCase() + `${list.lastName}`.toLowerCase() + newYear.toString()
-    console.log(list)
+      let newYear = year - person.age
+      person.username = `${person.firstName}`.toLowerCase() + `${person.lastName[0]}`.toLowerCase() + newYear.toString()
+    }
+    return list
+  }
+  
 
-
-
-}
+  fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&with_genres=${genreId}`)
+  // //Search by Movie title
+  fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&query=${movieTitle}`)
+  // // // Trending movies
+  fetch(`https://api.themoviedb.org/3/trending/movie/week?api_key=${apiKey}&language=en-US`)
+  // // // All possible genres
+  fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}&language=en-US`)
+  // // // Find videos/trailers by movie id
+  fetch(`https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=${apiKey}&language=en-US`)
+<iframe
+        className='movie-trailer'
+        width="640" height="360"
+        src={`https://www.youtube.com/embed/${movieTrailerId}?enablejsapi=1`}
+        frameBorder="0"
+        allowFullScreen
+></iframe>

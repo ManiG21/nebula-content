@@ -4,6 +4,11 @@
   font-family: Arial, Helvetica, sans-serif
   }
 
+  .contact {
+    color: whitesmoke;
+    font-size: 40px;
+  }
+
   body{
     background: linear-gradient(
       90deg, 

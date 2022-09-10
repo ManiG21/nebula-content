@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import  {Link} from "react-router-dom"
 import TodoForm from './TodoForm';
 import Todos from './Todos';
 
@@ -31,6 +32,7 @@ export default function TodoList(){
     return(
         <div>
           <h1>What needs to be done today?</h1>
+          <Link to="/contact"> <button className="todo-button">Contact</button></Link>
           <TodoForm onSubmit={addTodo} />
           <Todos todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
         </div>

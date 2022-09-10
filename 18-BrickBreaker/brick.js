@@ -144,6 +144,8 @@ function draw() {
     drawScore();
     collisionDetection();
 
+    
+
     if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
         dx = -dx;
     }
@@ -182,4 +184,168 @@ function draw() {
 }
 
 // setInterval(draw, 10);
+
+// Setting up Controller
+window.addEventListener("gamepadconnected", gamepadHandler);
+// (Variables to store contoroller buttion info)
+let controller = {};
+let buttonsPressed = [];
+function gamepadHandler(e) {
+  controller = e.gamepad;
+  output.textContent = `Gamepad: ${controller.id}`;
+}
+
+
+function gamepadUpdateHandler() {
+    buttonsPressed = [];
+    if(controller.buttons) {
+        for(let b=0; b<controller.buttons.length; b++) {
+            if(controller.buttons[b].pressed) {
+                buttonsPressed.push(b);
+            }
+        }
+    }
+}
+
+
+function gamepadButtonPressedHandler(button) {
+    var press = false;
+    for(var i=0; i<buttonsPressed.length; i++) {
+        if(buttonsPressed[i] == button) {
+            press = true;
+        }
+    }
+    return press;
+}
+
+function draw2() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // …
+
+    gamepadUpdateHandler();
+    if(gamepadButtonPressedHandler(0)) {
+        playerY -= 5;
+    }
+    else if(gamepadButtonPressedHandler(1)) {
+        playerY += 5;
+    }
+    if(gamepadButtonPressedHandler(2)) {
+        playerX -= 5;
+    }
+    else if(gamepadButtonPressedHandler(3)) {
+        playerX += 5;
+    }
+    if(gamepadButtonPressedHandler(11)) {
+        alert('BOOM!');
+    }
+
+    // …
+
+    ctx.drawImage(img, playerX, playerY);
+    requestAnimationFrame(draw2);
+}
+
+let GamepadAPI = {
+    active: false,
+    controller: {},
+    connect(event) {},
+    disconnect(event) {},
+    update() {},
+    buttons: {
+        layout: [],
+        cache: [],
+        status: [],
+        pressed(button, state) {}
+    },
+    axes: {
+        status: []
+    }
+};
+
+window.addEventListener("gamepadconnected", GamepadAPI.connect);
+window.addEventListener("gamepaddisconnected", GamepadAPI.disconnect);
+
+connect(event) {
+    GamepadAPI.controller = event.gamepad;
+    GamepadAPI.active = true;
+}
+
+disconnect(event) {
+    delete GamepadAPI.controller;
+    GamepadAPI.active = false;
+}
+
+update() {
+    GamepadAPI.buttons.cache = [];
+    for(let k=0; k<GamepadAPI.buttons.status.length; k++) {
+      GamepadAPI.buttons.cache[k] = GamepadAPI.buttons.status[k];
+    }
+    GamepadAPI.buttons.status = [];
+    let c = GamepadAPI.controller || {};
+    let pressed = [];
+    if(c.buttons) {
+      for(var b=0,t=c.buttons.length; b<t; b++) {
+        if(c.buttons[b].pressed) {
+          pressed.push(GamepadAPI.buttons.layout[b]);
+        }
+      }
+    }
+    if(GamepadAPI.active) {
+        if(!this.textGamepad.visible) {
+            this.textGamepad.visible = true;
+        }
+        GamepadAPI.update();
+        if(GamepadAPI.buttons.pressed('Start')) {
+            // start the game
+        }
+        if(GamepadAPI.buttons.pressed('X')) {
+            // turn on/off the sounds
+        }
+        if(GamepadAPI.buttons.pressed('Y','hold')) {
+            if(!this.screenGamepadHelp.visible) {
+                this.screenGamepadHelp.visible = true;
+            }
+        }
+        else {
+            if(this.screenGamepadHelp.visible) {
+                this.screenGamepadHelp.visible = false;
+            }
+        }
+    }
+    let axes = [];
+    if(c.axes) {
+      for(let a=0,x=c.axes.length; a<x; a++) {
+        axes.push(c.axes[a].toFixed(2));
+      }
+    }
+    GamepadAPI.axes.status = axes;
+    GamepadAPI.buttons.status = pressed;
+    return pressed;
+  }
+
+
+  pressed(button, hold) {
+    var newPress = false;
+    for(var i=0,s=GamepadAPI.buttons.status.length; i<s; i++) {
+      if(GamepadAPI.buttons.status[i] == button) {
+        newPress = true;
+        if(!hold) {
+          for(let j=0,p=GamepadAPI.buttons.cache.length; j<p; j++) {
+            if(GamepadAPI.buttons.cache[j] == button) {
+              newPress = false;
+            }
+          }
+        }
+      }
+    }
+    return newPress;
+  }
+
+  create() {
+    // …
+    let message = 'Gamepad connected! Press Y for controls';
+    let textGamepad = this.add.text(0, 0, message);
+    textGamepad.visible = false;
+}
 
