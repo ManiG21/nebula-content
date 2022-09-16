@@ -21,3 +21,18 @@ function fizzbuzz(n){
   }
     return sum
   }
+
+
+
+  function orderFood(list) {
+    // thank you for checking out the Coding Meetup kata :)
+    const mealObj = {}
+    list.forEach(person => {
+      if(mealObj[person.meal]){
+        mealObj[person.meal] ++
+      }else {
+        mealObj[person.meal] = 1
+      }
+    })
+    return mealObj
+  }
