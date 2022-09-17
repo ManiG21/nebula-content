@@ -36,3 +36,23 @@ function fizzbuzz(n){
     })
     return mealObj
   }
+
+ //write a function that adds the username property to each object in the input array:
+//The value of the username property is composed by concatenating:
+// firstName in lower-case;
+// first letter of the lastName in lower-case; and
+// the birth year which for the purpose of this kata is calculated simply by subtracting age from the current year. 
+
+function addUsername(list) {
+  // thank you for checking out the Coding Meetup kata :)
+    //   forEach
+    //   concat
+    // new variable
+  for (let i =0; i< list.length; i++){
+    let person = list[i]
+  let year = new Date().getFullYear()
+    let newYear = year - person.age
+    person.username = `${person.firstName}`.toLowerCase() + `${person.lastName[0]}`.toLowerCase() + newYear.toString()
+  }
+  return list
+}
