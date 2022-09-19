@@ -56,3 +56,49 @@ function addUsername(list) {
   }
   return list
 }
+
+// Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+
+// Return the running sum of nums.
+// /**
+//  * @param {number[]} nums
+//  * @return {number[]}
+//  */
+ var runningSum = function(nums) {
+  //create previous value variable
+  //.map()
+  //add previous values to current value
+  //return runningSum
+   let prev = 0 
+   return nums.map(curr =>  prev += curr)
+  
+};
+
+// Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place
+//  such that each unique element appears only once. The relative order of the elements should be kept the same.
+// Since it is impossible to change the length of the array in some languages,
+//  you must instead have the result be placed in the first part of the array nums.
+// More formally, if there are k elements after removing the duplicates, 
+// then the first k elements of nums should hold the final result. 
+// It does not matter what you leave beyond the first k elements.
+// Return k after placing the final result in the first k slots of nums.
+// Do not allocate extra space for another array. You must do this by 
+// modifying the input array in-place with O(1) extra memory
+
+var removeDuplicates = function(nums) {
+  //     make a variable for the count (unique letter)
+      let x= 0
+  //     looping go through numbers
+      for (let i = 0; i<nums.length; i++){
+  //     else if   
+  // if number is unique (prev = curr) then increase the count
+             if(nums[i] !== nums[i-1]){
+                x++
+             }else{
+                 nums.splice(i,1)
+                 i--
+             }       
+  //     else "replace"
+     }  
+      return x
+  };
