@@ -102,3 +102,12 @@ var removeDuplicates = function(nums) {
      }  
       return x
   };
+
+  
+// Write a function that returns both the minimum and maximum number of the given list/array.
+
+  function minMax(arr){
+    let max = Math.max(...arr)
+    let min = Math.min(...arr)
+    return [min,max]
+   }
