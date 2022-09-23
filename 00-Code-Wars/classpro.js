@@ -117,6 +117,12 @@ function minMax(arr) {
   const sorted = arr.sort((a, b) => a - b)
   return [sorted[0], sorted[arr.length - 1]]
 }
+//or
+function minMax(arr) {
+  let min = arr.reduce((least, greatest) => Math.min(least, greatest));
+  let max = arr.reduce((least, greatest) => Math.min(least, greatest));
+return [min,max]
+}
 
 // Write function which takes a string and make an acronym of it.
 
