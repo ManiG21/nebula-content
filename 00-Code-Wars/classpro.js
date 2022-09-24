@@ -124,6 +124,16 @@ function minMax(arr) {
 return [min,max]
 }
 
+//or
+
+function minMax(arr) {
+  let min = arr[0]
+  for(let i = 1; i < arr.length; i++)
+  const num = arr[i]
+  if(num < )
+return [min,max]
+}
+
 // Write function which takes a string and make an acronym of it.
 
 // Rule of making acronym in this kata:
