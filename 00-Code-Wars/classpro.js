@@ -130,7 +130,9 @@ function minMax(arr) {
   let min = arr[0]
   for(let i = 1; i < arr.length; i++)
   const num = arr[i]
-  if(num < )
+  if(num < min){
+    min = num
+  }
 return [min,max]
 }
 
@@ -163,3 +165,12 @@ function toAcronym(inp) {
   }
   return acr.join('')
 }
+
+// Given a valid (IPv4) IP address, return a defanged version of that IP address.
+// A defanged IP address replaces every period "." with "[.]".
+
+let defangIPaddr = function(address) {
+  return  address.replace(/\./g, '[.]');
+};
+
+
