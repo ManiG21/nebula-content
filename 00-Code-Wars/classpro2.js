@@ -15,3 +15,20 @@ var mostWordsFound = function(sentences) {
     } 
     return maxWords
 };
+
+// Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+ 
+var subtractProductAndSum = function(n) {
+    let sum = 0
+    let product = 1
+    let numberString = n.toString()
+    let splitNumber = numberString.split('') 
+    
+    
+    for(let i = 0; i < splitNumber.length; i++) {
+        // Take string of number at the index and transform to number 
+        sum += parseInt(splitNumber[i])
+        product *= parseInt(splitNumber[i])
+    }
+    return product - sum
+};
