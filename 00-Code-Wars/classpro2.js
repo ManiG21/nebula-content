@@ -53,3 +53,12 @@ var shuffle = function(nums, n) {
     // create x and y arrays from nums
     // .push twice
     };
+
+    const filteredVehicles = []
+    for( let i=0; i < cars.length; i++ ){
+        // console.log(cars[i])
+        if(cars[i].activeRecall){
+            filteredVehicles.push(cars[i])
+        }
+    }
+    console.log(filteredVehicles)
