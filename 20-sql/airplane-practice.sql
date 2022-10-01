@@ -15,11 +15,14 @@ SELECT modelcod , version FROM model WHERE version LIKE 'A3%';
 -- 6. What is the code and duration of all flights. Sort the answer from longest to shortest flight. If two flights have the same duration, sort them by flight code from smallest to largest (flightcod, duration).
 SELECT * FROM flight ORDER BY duration DESC, flightcod ASC;
 -- 7. Knowing that there are no direct flights from airport 1 (Porto) to airport 12 (London), which 2 legged flights can we use to travel between those airports? (flightcod1, flightcod2, intermediate_airport_code) Note: Use the airports codes (1 and 12) instead of the airport names in your query.
+SELECT * FROM flight;
+SELECT * FROM flight WHERE fromairportcod = 1;
+SELECT * FROM flight WHERE toairportcod = 12;
 
 -- 8. How many airports are there in each country? Sort the answer in ascending order. (country, number)?
-
+SELECT airport.country, 
 -- 9. What is the flight code, origin city and destination city of all flights in the database? Sort the answer by flight code. (flightcod, origin, destination)
-
+SELECT airport.city as origin, airport.city, flightcod FROM airport JOIN flight ON airport.airportcod = flight.fromairportcod AND flight.toairportcod ORDER BY flightcod;
 -- 10. What are the flight codes of all flights from Porto to Lisboa. (flightcod)? Note: Your query should use the city names, not the airport codes.
 
 -- 11. How many airports are there in each country? (country, number); show only countries with more than 2 airports.
