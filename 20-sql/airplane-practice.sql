@@ -8,6 +8,9 @@ SELECT plane.name, model.engines  FROM model JOIN plane ON plane.modelcod = mode
 -- 4. How many flights with a 2 or 3 hour duration are there in the database? (number)
 -SELECT COUNT (*) from flight WHERE duration = 2 OR duration = 3;
 -- 5. What plane models have a version starting with A3? (modelcod, version)
+SELECT * FROM model;
+SELECT modelcod , version FROM model WHERE version LIKE 'A3%';
+-- LIKE case sensitive Wildcard like search
 
 -- 6. What is the code and duration of all flights. Sort the answer from longest to shortest flight. If two flights have the same duration, sort them by flight code from smallest to largest (flightcod, duration).
 SELECT * FROM flight ORDER BY duration DESC, flightcod ASC;
