@@ -23,7 +23,7 @@ const elders = familyMembers.filter(pep => pep.age > 50);
 console.log(elders)
 // 4.   Write a HOF to find the largest number in the array
 const numbers = [34, 90, 12, 55, 100, 2, 65]
-let largenum = numbers
+const largenum = numbers.reduce((a, c) => a > c ? a : c);
 console.log(largenum)
 
 // 5. Solve one of the problems above again, but this time use a FOR LOOP

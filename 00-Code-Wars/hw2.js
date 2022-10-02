@@ -47,19 +47,4 @@ function addUsername(list) {
   }
   
 
-  fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&with_genres=${genreId}`)
-  // //Search by Movie title
-  fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&query=${movieTitle}`)
-  // // // Trending movies
-  fetch(`https://api.themoviedb.org/3/trending/movie/week?api_key=${apiKey}&language=en-US`)
-  // // // All possible genres
-  fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}&language=en-US`)
-  // // // Find videos/trailers by movie id
-  fetch(`https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=${apiKey}&language=en-US`)
-<iframe
-        className='movie-trailer'
-        width="640" height="360"
-        src={`https://www.youtube.com/embed/${movieTrailerId}?enablejsapi=1`}
-        frameBorder="0"
-        allowFullScreen
-></iframe>
+  
