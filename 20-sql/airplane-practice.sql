@@ -22,13 +22,14 @@ SELECT * FROM flight WHERE toairportcod = 12;
 -- 8. How many airports are there in each country? Sort the answer in ascending order. (country, number)?
 SELECT airport.country, 
 -- 9. What is the flight code, origin city and destination city of all flights in the database? Sort the answer by flight code. (flightcod, origin, destination)
-SELECT airport.city as origin, airport.city, flightcod FROM airport JOIN flight ON airport.airportcod = flight.fromairportcod AND flight.toairportcod ORDER BY flightcod;
+
+-- SELECT airport.city as origin, airport.city, flightcod FROM airport JOIN flight ON airport.airportcod = flight.fromairportcod AND flight.toairportcod ORDER BY flightcod;
+SELECT * FROM city JOIN country ON city.countrycode = country.code WHERE countrycode='SMR' AND country.name != city.name;
 -- 10. What are the flight codes of all flights from Porto to Lisboa. (flightcod)? Note: Your query should use the city names, not the airport codes.
-
+SELECT * FROM flight WHERE fromairportcod = 1 AND toairportcod = 3;
 -- 11. How many airports are there in each country? (country, number); show only countries with more than 2 airports.
-
+SELECT country, COUNT(country) FROM airport GROUP BY country HAVING COUNT(country)  > 2;
 -- 12. What country, or countries, has more airports and how many? (country, number)
-
+SELECT country, COUNT(country) FROM airport GROUP BY country ORDER BY COUNT(country) DESC LIMIT 1;
 -- 13. How many actual planes are there for each plane model. Sort the result so that least frequent models appear last (make, version, number). Note: You do not need to show models that do not have planes.
 
--- 14. How many actual planes are there for each plane model. Sort the result so that least frequent models appear last (make, version, number). Note: Also show models that do not have planes.
