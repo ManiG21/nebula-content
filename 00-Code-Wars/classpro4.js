@@ -44,6 +44,24 @@ function arithmetic(a, b, operator){
 //    given an array of minimum 4 positive integers. 
 //   No floats or non-positive integers will be passed.
 function SumTwoSmallestNumbers(numbers){
-let min = ( => parseInt(numbers.spliceInumbers.indexOf(Math.min(...numbers)),1))
-return min() + min()
+// let min = ( => parseInt(numbers.spliceInumbers.indexOf(Math.min(...numbers)),1))
+// return min() + min()
 }
+
+// Given an integer x, return true if x is palindrome integer.
+// An integer is a palindrome when it reads the same backward as forward.
+// For example, 121 is a palindrome while 123 is not.
+
+var isPalindrome = function(x) {
+  //.toString
+  //set parmeter to equal .reverse of parameter
+  let numStr = x.toString()
+  let splitX = numStr.split('').reverse().join('')
+  if(numStr === splitX){
+      return true
+  } else {
+      return false
+  }
+  
+};
+//or
