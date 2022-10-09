@@ -65,3 +65,4 @@ var isPalindrome = function(x) {
   
 };
 //or
+let isPalindrome = (x) =>(x === parseInt(x.toString().split('').reverse().join('')))
