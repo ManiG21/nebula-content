@@ -57,3 +57,4 @@ INSERT INTO Employee  VALUES  (DEFAULT,'Eugene Burrow',235, 'November 30, 2010',
 
 
 INSERT INTO Hourly_Employee  VALUES  (DEFAULT, 20, 10);
+INSERT INTO Hourly_Employee  VALUES  (DEFAULT, 30, 222);
