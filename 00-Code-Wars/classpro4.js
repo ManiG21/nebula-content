@@ -93,3 +93,10 @@ function search(budget, prices) {
    let avail = belowB.sort((a, b) => a - b).toString()
   return avail
 }
+
+//or
+
+function search(budget, prices) {
+  let belowB = prices.filter(price => price <= budget).sort((a, b) => a - b).toString()
+  return belowB
+ }
