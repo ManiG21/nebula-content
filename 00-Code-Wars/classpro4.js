@@ -66,3 +66,23 @@ var isPalindrome = function(x) {
 };
 //or
 let isPalindrome = (x) =>(x === parseInt(x.toString().split('').reverse().join('')))
+
+
+function search(budget, prices) {
+  // Integer (budget) and array of intergers (prices)
+  // Output: String of comma seperated numbers
+  // loop or filter
+ // 3, [6, 1, 2, 9, 2]
+  //[1,2,2]
+  // loop over each price and see if we can afford it
+  // assending order .sort()
+  // convert the numbers to strings .toString()
+ // ["1","2","2"]
+  // Convert the array of strings to a string 
+  // ["1","2","2"] --> "1,2,2"
+  let belowB = prices.filter(price => price <= budget)
+  console.log(belowB)
+//   arr.sort((a, b) => a - b)
+   let avail = belowB.sort((a, b) => a - b).toString()
+  return avail
+}
