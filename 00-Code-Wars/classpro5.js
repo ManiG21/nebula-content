@@ -19,3 +19,25 @@ function getCount(str) {
     }
   }return vowels
 }
+
+//or
+
+function getCount(str) {
+    let vowels = str.split('')
+    let count = 0
+    console.log(vowels)
+  const countedVowels = vowels.reduce((pre, curr) => {
+    if (curr === 'a') {
+       count++
+    } else if (curr === 'e'){
+      count++
+    }else if (curr === 'i'){
+     count++
+    }else if (curr === 'o'){
+      count++
+    }else if (curr === 'u'){
+     count++
+    }
+     },0) 
+  return count
+  }
