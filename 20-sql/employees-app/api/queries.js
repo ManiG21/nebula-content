@@ -32,3 +32,23 @@ export const getAllHourlyEmployees = (req, res) => {
         res.json(results.rows)
      }); 
 }
+
+export const addEmployee = (req, res) => {
+    try {
+        const { employee_name, employee_number, date_hired ,city_id } = req.body;
+        pool.query(
+            `INSERT INTO employee (employee_name, employee_number, date_hired, city_id) VALUES ($1, $2, $3, $4) RETURNING *`,
+            [employee_name, employee_number, date_hired, city_id],
+            (error, results) => {
+                if (error) {
+                    console.log(error, '<--- error here')
+                    throw error;
+                }
+                console.log(results, "<--- result!")
+                res.status(200).json(results.rows)
+            }
+        );
+    } catch (e) {
+        console.log("ERROR CAUGHT! " + err.message)
+    }
+  };

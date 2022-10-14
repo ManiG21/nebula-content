@@ -2,6 +2,8 @@ import express from 'express';
 import * as db from './queries.js';
 const app = express();
 const PORT = 3030;
+app.use(express.json());
+
 app.get('/', function (req, res){
     res.send('Hello World')
 })
