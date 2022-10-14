@@ -41,3 +41,8 @@ function getCount(str) {
      },0) 
   return count
   }
+
+  //or
+  //     function getCount(str) {
+//   return str.match(/[aeiou]/gi);
+// }
