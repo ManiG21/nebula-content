@@ -1,6 +1,6 @@
 import pg from 'pg'
-export function getAllEmployees1(req, res){
-    res.json([{id:1, name: 'Fester'}]);
+export function getAllEmployees1(req, res) {
+    res.json([{ id: 1, name: 'Fester' }]);
 }
 const pool = new pg.Pool({
     host: 'localhost',
@@ -9,16 +9,27 @@ const pool = new pg.Pool({
     database: 'employees'
 });
 const allowTables = ['hourly_employee', 'salaried_employee', 'city', 'employee']
-export const getTable = (req,res) => {
+export const getTable = (req, res) => {
     //  This is the same as the line below const tableName = req.params.tableName
-    const {tableName} = req.params
-    if( !allowTables.includes(tableName)){
+    const { tableName } = req.params
+    if (!allowTables.includes(tableName)) {
         return res.status(404).send('Error Table does not exist')
     }
     pool.query(`SELECT * FROM ${tableName}`)
-    .then((results, error) => {
-        res.json(results.rows);
-    });
+        .then((results, error) => {
+            res.json(results.rows);
+        });
+}
+export const getTableById = (req, res) => {
+    //  This is the same as the line below const tableName = req.params.tableName
+    const { tableName, id } = req.params
+    if (!allowTables.includes(tableName)) {
+        return res.status(404).send('Error Table does not exist')
+    }
+    pool.query(`SELECT * FROM ${tableName} WHERE id = $1`, [id])
+        .then((results, error) => {
+            res.json(results.rows);
+        });
 }
 // export const getAllEmployees = (req,res) => {
 //     pool.query(`SELECT * FROM employee`)
@@ -45,22 +56,25 @@ export const getTable = (req,res) => {
 //      }); 
 // }
 
-// export const addEmployee = (req, res) => {
-//     try {
-//         const { employee_name, employee_number, date_hired ,city_id } = req.body;
-//         pool.query(
-//             `INSERT INTO employee (employee_name, employee_number, date_hired, city_id) VALUES ($1, $2, $3, $4) RETURNING *`,
-//             [employee_name, employee_number, date_hired, city_id],
-//             (error, results) => {
-//                 if (error) {
-//                     console.log(error, '<--- error here')
-//                     throw error;
-//                 }
-//                 console.log(results, "<--- result!")
-//                 res.status(200).json(results.rows)
-//             }
-//         );
-//     } catch (e) {
-//         console.log("ERROR CAUGHT! " + err.message)
-//     }
-//   };
+
+export const addTable = (req, res) => {
+    const { tableName } = req.params;
+    // only allow specific tables
+    if (!allowTables.includes(tableName)) {
+        return res.status(404).send("Table not Found 🤔");
+    }
+    //    name of all columns for new data keys
+    const keys = Object.keys(req.body).join(', ');
+    // values of all data we're inserting into
+    const values = Object.values(req.body);
+    // dynamic data we're inserting into sql statemate($1,$2, etc)
+    const psqlInsert = values.map((key, index) => `$${index + 1}`).join(', ')
+    console.log(`INSERT INTO ${tableName} (${keys}) VALUES (${psqlInsert}) RETURNING *`)
+    pool.query(`INSERT INTO ${tableName} (${keys}) VALUES (${psqlInsert}) RETURNING *`, values,
+     (error, results) => {
+        if (error) {
+            throw error;
+        }
+        res.status(200).json(results.rows);
+    })
+}
