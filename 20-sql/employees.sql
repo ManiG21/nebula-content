@@ -49,10 +49,12 @@ INSERT INTO salaried_employee (annual_salary, employee_id) VALUES (75000, 1);
 INSERT INTO salaried_employee (annual_salary, employee_id) VALUES (120000, 2);
 INSERT INTO salaried_employee (annual_salary, employee_id) VALUES (57000, 3);
 INSERT INTO salaried_employee (annual_salary, employee_id) VALUES (85000, 4);
+INSERT INTO salaried_employee (annual_salary, employee_id) VALUES (100000, 5);
 INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (22, 2);
 INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (32.50, 3);
 INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (23, 4);
 INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (47.50, 5);
+INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (50, 6);
 
 
 
