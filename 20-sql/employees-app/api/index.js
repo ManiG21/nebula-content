@@ -13,6 +13,7 @@ app.get('/Pokemon', function(req, res){
 app.get('/:tableName', db.getTable)
 app.get('/:tableName/:id', db.getTableById)
 app.post('/:tableName', db.addTable)
+app.put('/:tableName/:id', db.updateTable)
 // app.get('/employees', db.getAllEmployees)
 // app.get('/cities', db.getAllCities)
 // app.get('/salaried-employees', db.getAllSalariedEmployees)
