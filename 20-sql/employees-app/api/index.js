@@ -18,6 +18,4 @@ app.put('/:tableName/:id', db.updateTable)
 
 // app.get('/employees', db.getAllEmployees)
 // app.get('/cities', db.getAllCities)
-// app.get('/salaried-employees', db.getAllSalariedEmployees)
-// app.get('/hourly-employees', db.getAllHourlyEmployees)
 app.listen(PORT,() => console.log('You finally made it here👏', PORT))
