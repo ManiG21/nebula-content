@@ -39,6 +39,15 @@ export const getTableById = (req, res) => {
 //      }); 
 // }
 
+export const deleteTable = (req,res) => {
+    const {tableName, id} = req.params
+    pool.query(`DELETE FROM ${tableName} WHERE id=${id} RETURNING *`, (error, results) => {
+        if(error){
+            throw error;
+        }
+        res.status(200).json(results.rows);
+    })
+}
 
 export const addTable = (req, res) => {
     const { tableName } = req.params;
