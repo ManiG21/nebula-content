@@ -58,3 +58,17 @@ function disemvowel(str) {
   
   return str;
 }
+
+
+function XO(str) {
+  let x = 0
+  let o = 0
+  for (let i = 0; i < str.length; i++){
+    if(str[i].toLowerCase() === 'x'){
+      x += 1
+      console.log(x)
+    }else if ( str[i].toLowerCase() === 'o'){
+     o += 1
+    }
+  } return x === o
+}
