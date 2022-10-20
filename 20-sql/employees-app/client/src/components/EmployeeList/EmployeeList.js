@@ -12,7 +12,7 @@ export default function EmployeeList(){
   console.log(employees)
     return (
         <>
-        <div>Employee List</div>
+        <h1>Employee List</h1>
         <div className= "EmployeeListContainer">
         {employees?.map((employee) => (
             <div class = 'employee'>
@@ -20,7 +20,7 @@ export default function EmployeeList(){
                 <br></br>
                 {employee.id}
                 <br></br>
-                {/* {City.id} */}
+                {employee.cityId}
                 </div>
         ))}
         </div>
