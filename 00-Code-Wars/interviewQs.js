@@ -28,7 +28,6 @@ console.log('--Section 2--');
   // 2 - How can we print the fifth letter of this number
   const num = 13513531531
   const numStr = num.toString()
-  numStr.split('')
   console.log(numStr[4]) //3
   // 3 - How can we update the value of our variables
   let add5 = 7
@@ -41,5 +40,7 @@ console.log('--Section 2--');
   // 4 - log 1 truthy value and 1 fasley value
   let a = 'wrong'
   console.log(a === 'right') //[value], false
+  console.log(10 / 2 === 4)
+ 
   let x = 'str'
   console.log(x === 'str') //[value],
