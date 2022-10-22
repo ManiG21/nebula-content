@@ -22,10 +22,10 @@ export default function AddEmployee() {
 
     const onSubmit = (e) => {
         e.preventDefault()
-   console.log(employeeCityId, dateHired, employeeNumber, employeeName)  This is the shorter version of lines above
+//    console.log(employeeCityId, dateHired, employeeNumber, employeeName)  This is the shorter version of lines above
     }
     return (
-        <form>
+        <form id="form">
             <label>Employee name</label>
             <input value={employeeName} onChange = {updateEmployeeName}></input>
             <label>Employee number</label>
