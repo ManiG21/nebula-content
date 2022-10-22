@@ -24,17 +24,22 @@
 console.log('--Section 2--');
   // 1 - How can we print the fifth letter of this string
   const string = 'I want the fifth character in this string';
-  console.log() //n
+  console.log(string[4]) //n
   // 2 - How can we print the fifth letter of this number
   const num = 13513531531
-  console.log() //3
+  const numStr = num.toString()
+  numStr.split('')
+  console.log(numStr[4]) //3
   // 3 - How can we update the value of our variables
   let add5 = 7
+   add5 += 5
   // add 5 here
   console.log(add5) // 12
   let helloWorld = 'Hello'
   // add World here
-  console.log(helloWorld) // 'Hello World'
+  console.log(helloWorld + ' World') // 'Hello World'
   // 4 - log 1 truthy value and 1 fasley value
-  console.log() //[value], false
-  console.log() //[value],
+  let a = 'wrong'
+  console.log(a === 'right') //[value], false
+  let x = 'str'
+  console.log(x === 'str') //[value],
