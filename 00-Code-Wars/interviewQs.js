@@ -18,3 +18,23 @@
 // A framwork built ontop of Javacript that utilizes a virtual/shadow to rerender as few elements as possible
 //  DOM It is more effcient (reduce the load speed of web pages), Doesn't have to reload 
 
+/*
+-- S2 Primatives 
+*/
+console.log('--Section 2--');
+  // 1 - How can we print the fifth letter of this string
+  const string = 'I want the fifth character in this string';
+  console.log() //n
+  // 2 - How can we print the fifth letter of this number
+  const num = 13513531531
+  console.log() //3
+  // 3 - How can we update the value of our variables
+  let add5 = 7
+  // add 5 here
+  console.log(add5) // 12
+  let helloWorld = 'Hello'
+  // add World here
+  console.log(helloWorld) // 'Hello World'
+  // 4 - log 1 truthy value and 1 fasley value
+  console.log() //[value], false
+  console.log() //[value],
