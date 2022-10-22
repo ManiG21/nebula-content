@@ -36,7 +36,9 @@ console.log('--Section 2--');
   console.log(add5) // 12
   let helloWorld = 'Hello'
   // add World here
-  console.log(helloWorld + ' World') // 'Hello World'
+  helloWorld += ' World'
+  console.log(helloWorld)
+//   console.log(helloWorld + ' World') // 'Hello World'
   // 4 - log 1 truthy value and 1 fasley value
   let a = 'wrong'
   console.log(a === 'right') //[value], false
