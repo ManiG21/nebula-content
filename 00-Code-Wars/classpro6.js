@@ -16,3 +16,13 @@ function sumEvenNumbers(input) {
   }
 
   //or
+
+  function sumEvenNumbers(input) {
+    let sum = 0
+    for(let i = 0; i < input.length; i++){
+    if(input[i] % 2 === 0){
+      sum += input[i] 
+      console.log(sum)
+      }
+    } return sum
+  }
