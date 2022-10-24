@@ -38,7 +38,8 @@ console.log('--Section 2--');
   // add World here
   helloWorld += ' World'
   console.log(helloWorld)
-//   console.log(helloWorld + ' World') // 'Hello World'
+  //0r
+  console.log(helloWorld + ' World') // 'Hello World'
   // 4 - log 1 truthy value and 1 fasley value
   let a = 'wrong'
   console.log(a === 'right') //[value], false
