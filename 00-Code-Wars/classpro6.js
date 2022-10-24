@@ -8,4 +8,6 @@ function sumEvenNumbers(input) {
     0);
     return sum
   }
+  //or 
+
   
