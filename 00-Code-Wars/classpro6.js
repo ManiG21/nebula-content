@@ -11,8 +11,7 @@ function sumEvenNumbers(input) {
   //or 
 
   function sumEvenNumbers(input) {
-    let evens = input.filter(num => num % 2 === 0).reduce( (prev, cur) => prev + cur, 0);
-    return evens
+    return  input.filter(num => num % 2 === 0).reduce( (prev, cur) => prev + cur, 0);
   }
 
   //or
