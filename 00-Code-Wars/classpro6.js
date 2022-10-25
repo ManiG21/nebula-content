@@ -9,13 +9,13 @@ function sumEvenNumbers(input) {
     return sum
   }
   //or 
-
+//one line
   function sumEvenNumbers(input) {
     return  input.filter(num => num % 2 === 0).reduce( (prev, cur) => prev + cur, 0);
   }
 
   //or
-
+// With for loop
   function sumEvenNumbers(input) {
     let sum = 0
     for(let i = 0; i < input.length; i++){
