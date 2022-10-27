@@ -26,6 +26,9 @@ function sumEvenNumbers(input) {
     } return sum
   }
 
+//   Leo's girlfriend asked him to buy a gift list during his next trip, now he wants to know how many of them will he be able to buy.
+// Write a function to help Leo out. The first parameter of the function is Leo's budget; the second one is an array containing the price of each gift. 
+// You should return an integer representing the maximum amount of gifts Leo can buy.
 
   function howManyGifts(maxBudget, gifts){
     // inputs: budget (number) and gifts (array of prices)
