@@ -77,3 +77,17 @@ function dontGiveMeFive(start, end){
   } return count
   
 }
+
+
+function solution(str) {
+  //input: string
+// output: string with space 
+//loop through to find uppecase character
+  let output = ''
+for(let i = 0; i < str.length; i++){
+  if(str[i] === str[i].toUpperCase()){
+    output += ' '
+  }
+  output += str[i]
+} return output
+}
