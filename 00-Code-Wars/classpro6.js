@@ -84,6 +84,8 @@ function solution(str) {
   //input: string
 // output: string with space 
 //loop through to find uppecase character
+//create variable to add the new string to
+//return new variable
   let output = ''
 for(let i = 0; i < str.length; i++){
   if(str[i] === str[i].toUpperCase()){
