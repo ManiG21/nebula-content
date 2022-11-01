@@ -83,14 +83,14 @@ function dontGiveMeFive(start, end){
 function solution(str) {
   //input: string
 // output: string with space 
-//loop through to find uppecase character
 //create variable to add the new string to
-//return new variable
   let output = ''
+//loop through to find uppecase character
 for(let i = 0; i < str.length; i++){
   if(str[i] === str[i].toUpperCase()){
     output += ' '
   }
   output += str[i]
+//return new variable
 } return output
 }
