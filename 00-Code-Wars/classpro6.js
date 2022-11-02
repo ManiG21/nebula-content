@@ -66,14 +66,14 @@ function dontGiveMeFive(start, end){
   // so we can use the includes string method
   // create a variable to count numbers
   // create condition/ if statement
-  // check to see if there isnt a "5" in it and then count it
-  // return the count 
     let count = 0
   for (let i = start; i < end.length; i++){
     let numStr = end[i].toString()
+  // check to see if there isnt a "5" in it and then count it
     if(!numStr[i].includes('5')){
       count++
-    }    
+    }  
+  // return the count 
   } return count
   
 }
