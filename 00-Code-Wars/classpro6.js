@@ -94,3 +94,22 @@ for(let i = 0; i < str.length; i++){
 //return new variable
 } return output
 }
+
+
+let sumOfUnique = function(nums) {
+  const numObj = {}
+  for(let i = 0; i < nums.length; i++){
+      if(numObj[nums[i]]){
+          numObj[nums[i]]++
+      }else {
+          numObj[nums[i]] = 1
+      }
+      
+
+  }
+   let filNum = Object.keys(numObj).filter(key => {
+          return  numObj[key] === 1
+       })
+      let sum = filNum.reduce((prev, curr) => parseInt(prev) + parseInt(curr))
+            return sum
+};
