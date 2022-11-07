@@ -34,10 +34,10 @@ function sumEvenNumbers(input) {
     // inputs: budget (number) and gifts (array of prices)
     // output: number - how many gifts he can buy
     // variable counter to track budget limit ( count up to 20 or down from 20)
-    // variable to count how many gifts you bought
     // if statement / logic to decide whether or not to buy it
     // return the count of gifts
     gifts = gifts.sort((a,b)=> a-b)
+    // variable to count how many gifts you bought
     let giftCount = 0
     let total = maxBudget
     // loop over array
