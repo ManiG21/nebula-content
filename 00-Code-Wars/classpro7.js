@@ -1,0 +1,1 @@
+// When provided with a String, capitalize all vowels
