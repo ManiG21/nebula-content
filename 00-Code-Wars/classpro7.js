@@ -22,3 +22,19 @@ function swap (str) {
   // of even integers except for a single integer N. Write a method that takes the array as
   //  an argument and returns this "outlier" N.
 
+  function findOutlier(int){
+    let even = []
+    let odd = []
+  for(let i = 0; i < int.length; i++){
+    if(int[i] % 2 === 0){
+      even.push(int[i])
+    } else if(int[i] % 2 !== 0) {
+     odd.push(int[i])
+    }
+     }if(odd.length < even.length){
+       return odd[0]
+     } else {
+       return even[0]
+     }
+  }
+  
