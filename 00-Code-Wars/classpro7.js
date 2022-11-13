@@ -42,3 +42,16 @@ function swap (str) {
   // The first word within the output should be capitalized only if the original word was capitalized 
   // (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized.
   
+  function toCamelCase(str){
+    let newStr = ''
+    for(let i = 0; i < str.length; i++){
+      if(str[i] === '_'|| str[i] === '-'){
+       newStr += str[i + 1].toUpperCase()
+           i++
+      }
+      else{
+       newStr += str[i]
+      }
+    }
+    return newStr
+  }
