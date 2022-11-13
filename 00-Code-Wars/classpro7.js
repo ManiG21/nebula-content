@@ -59,3 +59,19 @@ function swap (str) {
   // Given n, take the sum of the digits of n. If that value has more than one digit,
   //  continue reducing in this way until a single-digit number is produced. 
   //  The input will be a non-negative integer.
+
+  function digitalRoot(n) {
+    //   let nums = n.toString().split('')
+    //   let fin = nums.reduce((prev, curr) => prev + +curr, 0)
+    //   return fin
+      //create a variable
+      let sum = n.toString()
+      // Loop through
+      //check to see if their are multiple digits
+      for(let i = 0; sum.length > 1; i++){
+      //split up numbers
+      sum =  sum.split('').reduce((prev, curr) => prev + +curr, 0).toString()
+      }
+      return +sum
+      //output: number
+    }
