@@ -94,3 +94,6 @@ function swap (str) {
      }
 
      //or
+
+    function reverse(str){
+    }
