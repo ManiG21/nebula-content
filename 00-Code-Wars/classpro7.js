@@ -104,3 +104,20 @@ function swap (str) {
 // Return the score for this array of answers, giving +4 for each correct answer, -1 for each incorrect answer, 
 // and +0 for each blank answer, represented as an empty string (in C the space character is used).
 // If the score < 0, return 0.
+
+function checkExam(arr1, arr2) {
+  let score = 0
+ for(let i = 0; i < arr1.length;i++){
+   if(arr1[i] === arr2[i]){
+     score += 4
+   } else if (arr2[i] === ""){
+     score  += 0
+   } else if(arr1[i] !== arr2[i]){
+     score -= 1
+   } 
+ } 
+  if( score < 0){
+     score = 0
+   }
+  return score
+}
