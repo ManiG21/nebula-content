@@ -110,12 +110,14 @@ function checkExam(arr1, arr2) {
  for(let i = 0; i < arr1.length;i++){
    if(arr1[i] === arr2[i]){
      score += 4
+// and +0 for each blank answer, represented as an empty string (in C the space character is used).
    } else if (arr2[i] === ""){
      score  += 0
    } else if(arr1[i] !== arr2[i]){
      score -= 1
    } 
  } 
+// If the score < 0, return 0.
   if( score < 0){
      score = 0
    }
