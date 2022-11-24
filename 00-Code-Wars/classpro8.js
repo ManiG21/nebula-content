@@ -28,7 +28,6 @@ function moveZeros(arr) {
 function generateHashtag (str) {
     //   input: string
     //   output: string 
-    //   make condition if the final result is longer than 140 characters will return false
       if(str === "" || !str.trim()){
         return false;
       }
@@ -46,6 +45,7 @@ function generateHashtag (str) {
         hashGen += words[i][0].toUpperCase() + words[i].slice(1).toLowerCase()
     //     console.log(hashGen)
       }
+    //   make condition if the final result is longer than 140 characters will return false
       if(hashGen.length > 140){
         return false
       }
