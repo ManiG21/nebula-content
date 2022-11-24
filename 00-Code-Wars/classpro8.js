@@ -43,8 +43,6 @@ function generateHashtag (str) {
         }
     //   need to iterate thru array and capitalize the first letter in words
     //     .slice
-    //    console.log(words[i][0].toUpperCase(), words[i].slice(1).toLowerCase())
-    //     console.log(words[i])
         hashGen += words[i][0].toUpperCase() + words[i].slice(1).toLowerCase()
     //     console.log(hashGen)
       }
