@@ -51,3 +51,9 @@ function generateHashtag (str) {
       }
       return hashGen
     }
+
+
+    Array.prototype.remove_ = function(integer_list, values_list){
+      return integer_list.filter(x => {
+       return !values_list.includes(x)})
+     }
