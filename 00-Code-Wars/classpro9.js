@@ -7,6 +7,7 @@ function addArrays(arr1, arr2) {
     // input: Array 
     // Output: Array 
    // Check to see if two array are equal in length
+   // Throw error if they aren't equal
     let newArr = []
     if(arr1.length !== arr2.length){
         throw new Error('invalid length')
