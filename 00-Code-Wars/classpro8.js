@@ -4,8 +4,8 @@
 function moveZeros(arr) {
     //input: array
     //output :array
-    //Loop through to find the zeros
     let length = arr.length
+    //Loop through to find the zeros
     for(let i = 0; length-- ; i++){
       if(arr[i] === 0){
         arr.push(arr[i])
