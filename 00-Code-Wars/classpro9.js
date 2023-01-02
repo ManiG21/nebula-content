@@ -30,3 +30,9 @@ function addArrays(arr1, arr2) {
 //   Else return 'Nice Work Champ!'.Happiness rating will be total score / number of people in the room.
 //   Note that your boss is in the room (boss), their score is worth double it's face value 
 //   (but they are still just one person!).
+
+
+// Simple, given a string of words, return the length of the shortest word(s).
+
+// String will never be empty and you do not need to account for different data types.
+
