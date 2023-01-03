@@ -36,3 +36,10 @@ function addArrays(arr1, arr2) {
 
 // String will never be empty and you do not need to account for different data types.
 
+function findShort(s){
+  let words = s.split(' ')
+  let short = words.reduce((sWord, cWord) => {
+    return cWord.length < sWord.length ? cWord : sWord;
+  }, words[0]);
+  return short.length
+}
