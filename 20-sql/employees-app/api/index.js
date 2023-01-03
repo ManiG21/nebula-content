@@ -1,8 +1,10 @@
 import express from 'express';
 import * as db from './queries.js';
+import cors from 'cors'
 const app = express();
 const PORT = 3030;
 app.use(express.json());
+app.use(cors());
 
 app.get('/', function (req, res){
     res.send('Hello World')

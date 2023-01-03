@@ -9,6 +9,10 @@ export default function EmployeeList(){
      getAllFromTable('employee')
      .then(res => setEmployees(res))
   },[])
+
+  function deleteEmployee(employee){
+   fetch(`http://localhost:3030/employee/${employee.id}`, {method:'DELETE'})
+  }
   console.log(employees)
     return (
         <>
@@ -21,7 +25,9 @@ export default function EmployeeList(){
                 {employee.id}
                 <br></br>
                 {employee.cityId}
-                </div>
+                <br></br>
+                <button onClick={()=>deleteEmployee(employee)}>🗑️</button>
+            </div>
         ))}
         </div>
         </>
