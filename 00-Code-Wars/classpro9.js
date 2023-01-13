@@ -31,7 +31,6 @@ function addArrays(arr1, arr2) {
 //   Note that your boss is in the room (boss), their score is worth double it's face value 
 //   (but they are still just one person!).
 
-
 // Simple, given a string of words, return the length of the shortest word(s).
 // String will never be empty and you do not need to account for different data types.
 
