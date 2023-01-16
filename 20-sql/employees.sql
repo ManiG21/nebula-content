@@ -58,7 +58,6 @@ INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (50, 6);
 
 
 
--- INSERT INTO City  VALUES  (DEFAULT,'Los Angeles');
 -- INSERT INTO City  VALUES  (DEFAULT,'New York City');
 -- INSERT INTO City  VALUES  (DEFAULT,'Las Vegas');
 -- INSERT INTO City  VALUES  (DEFAULT,'Detroit');
