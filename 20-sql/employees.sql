@@ -80,7 +80,6 @@ INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (50, 6);
 -- INSERT INTO Employee  VALUES  (DEFAULT,'Eugene Burrow',235, 'November 30, 2010', 10);
 
 
--- INSERT INTO Hourly_Employee  VALUES  ( 20, 10);
 -- INSERT INTO Hourly_Employee  VALUES  ( 30, 222);
 -- INSERT INTO Hourly_Employee  VALUES  ( 25, 224);
 -- INSERT INTO Hourly_Employee  VALUES  (23, 226);
