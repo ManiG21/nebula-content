@@ -66,7 +66,6 @@ INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (50, 6);
 -- INSERT INTO City  VALUES  (DEFAULT,'Miami');
 -- INSERT INTO City  VALUES  (DEFAULT,'Boston');
 -- INSERT INTO City  VALUES  (DEFAULT,'Atlanta');
--- INSERT INTO City  VALUES  (DEFAULT,'Dallas');
 
 -- INSERT INTO Employee  VALUES  (DEFAULT,'Greg Adams',10, 'November 3, 2010', 1);
 -- INSERT INTO Employee  VALUES  (DEFAULT,'Brittiny Taylor',213, 'November 8, 2010', 2);
