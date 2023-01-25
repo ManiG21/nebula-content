@@ -74,5 +74,4 @@ INSERT INTO hourly_employee (hourly_rate, employee_id) VALUES (50, 6);
 -- INSERT INTO Employee  VALUES  (DEFAULT,'Gianna Bruce',224, 'November 17, 2010', 5);
 -- INSERT INTO Employee  VALUES  (DEFAULT,'Bruce Banner',226, 'November 19, 2010', 6);
 -- INSERT INTO Employee  VALUES  (DEFAULT,'Nick Fury',228, 'November 21, 2010', 7);
--- INSERT INTO Employee  VALUES  (DEFAULT,'Bree Durant',232, 'November 27, 2010', 9);
 -- INSERT INTO Employee  VALUES  (DEFAULT,'Eugene Burrow',235, 'November 30, 2010', 10);
