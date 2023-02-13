@@ -144,7 +144,7 @@ return [min,max]
 // join them toghether
 
 function toAcronym(inp) {
-  //input string
+  //input : string
   // output : string
   // first letter of each word
   // string and use split() string -> array ( of words)
