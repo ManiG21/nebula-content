@@ -8,9 +8,10 @@ let reverseString = function(s) {
         s[i] = letter // Changing the irst letterto be the last letter saved in memory
     }
 };
-
-// let reverseString = function(s) {
-//     for(let i=0; i<s.length/2; i++){
-//         [s[i],s[s.length-1-i]] = [s[s.length-1-i],s[i]]
-//     }
-// };
+ 
+//or
+let reverseString2 = function(s) {
+    for(let i=0; i<s.length/2; i++){
+        [s[i],s[s.length-1-i]] = [s[s.length-1-i],s[i]]
+    }
+};
