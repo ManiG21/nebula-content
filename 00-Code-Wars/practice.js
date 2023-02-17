@@ -4,12 +4,13 @@
 let reverseString = function(s) {
     for(let i=0; i<s.length/2; i++){
         let letter = s[s.length-1-i]
-        s[s.length-1-i] = s[i] //Change last leter with the first letter
-        s[i] = letter // Changing the irst letterto be the last letter saved in memory
+        s[s.length-1-i] = s[i] //Change last letter with the first letter
+        s[i] = letter // Changing the first letter to be the last letter saved in memory
     }
 };
  
 //or
+
 let reverseString2 = function(s) {
     for(let i=0; i<s.length/2; i++){
         [s[i],s[s.length-1-i]] = [s[s.length-1-i],s[i]]
