@@ -60,3 +60,11 @@ let deleteNode = function(node) {
 
 // Write a function that reverses a string. The input string is given as an array of characters s.
 // You must do this by modifying the input array in-place with O(1) extra memory.
+
+let reverseString = function(s) {
+  for(let i=0; i<s.length/2; i++){
+      let letter = s[s.length-1-i]
+      s[s.length-1-i] = s[i] //Change last leter with the first letter
+      s[i] = letter // Changing the irst letterto be the last letter saved in memory
+  }
+};
