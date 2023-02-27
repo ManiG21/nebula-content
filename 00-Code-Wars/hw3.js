@@ -28,6 +28,7 @@ console.log(largenum)
 
 // 5. Solve one of the problems above again, but this time use a FOR LOOP
 function strUp() {
+    //output: array
     let output = []
     for (let i = 0; i < strs.length; i++) {
        output.push(strs[i].toUpperCase())
