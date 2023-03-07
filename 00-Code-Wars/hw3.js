@@ -10,6 +10,7 @@ const people = [
     { name: "Jocelyn", hobby: 'skate boarding' },
     { name: "Sasha", hobby: 'swimming' },
     { name: "Tim", hobby: 'running' },
+    { name: "Armani", hobby: 'basketball' },
 ];
 const greet = cur => 'Hi, my name is ' + cur.name + ' , I like to go ' + cur.hobby
 const greeting = people.map(greet)
