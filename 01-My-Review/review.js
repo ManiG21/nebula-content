@@ -15,6 +15,7 @@ let rem = x % 2
 // Postfix (most common)
 let x = 3;
 let y = x++
+// y = x + 1
 
 // Prefix
 let a = 3;
