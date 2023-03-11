@@ -16,6 +16,7 @@ let rem = x % 2
 let x = 3;
 let y = x++
 // y = x + 1
+// Also used for loop and certain if statements
 
 // Prefix
 let a = 3;
