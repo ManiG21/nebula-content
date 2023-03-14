@@ -23,6 +23,7 @@ let a = 3;
 let b = ++a;
 
 // Compound Assignment Operators
+//combinining basic operators with equal will reassign varible with given operation
 
 let v = 4
 v *= 4  // v is now = 16
