@@ -33,3 +33,6 @@ v2 /= 5 // v2 is now 2
 
 let v3 = 3
 v3 += 3 // v3 is now 6
+
+let v4 = 3
+v4 -= 3 // v4 is now 0
