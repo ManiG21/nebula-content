@@ -23,3 +23,6 @@ let a = 3;
 let b = ++a;
 
 // Compound Assignment Operators
+
+let v = 4
+v *= 4  // v is now = 16
