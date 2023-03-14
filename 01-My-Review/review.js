@@ -26,3 +26,6 @@ let b = ++a;
 
 let v = 4
 v *= 4  // v is now = 16
+
+let v2 = 10
+v2 /= 5 // v2 is now 2
