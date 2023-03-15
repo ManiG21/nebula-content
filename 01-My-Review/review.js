@@ -41,3 +41,7 @@ v4 -= 3 // v4 is now 0
 let numStr = '2'
 let n = 1
 console.log(numStr + n) // output = '21'
+
+//String to a Number
+parseInt("22") // output = 22
+
