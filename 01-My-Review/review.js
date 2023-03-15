@@ -45,3 +45,7 @@ console.log(numStr + n) // output = '21'
 //String to a Number
 parseInt("22") // output = 22
 
+const nStr = '1';
+const nu = +nStr;
+
+// Number to a String
