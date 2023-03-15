@@ -45,7 +45,10 @@ console.log(numStr + n) // output = '21'
 //String to a Number
 parseInt("22") // output = 22
 
+// Or
 const nStr = '1';
-const nu = +nStr;
+const nu = +nStr; // console.log(nu) = 1
 
 // Number to a String
+let t = 24
+console.log(t.toString()) // output = "24"
