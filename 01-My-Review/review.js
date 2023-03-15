@@ -36,3 +36,5 @@ v3 += 3 // v3 is now 6
 
 let v4 = 3
 v4 -= 3 // v4 is now 0
+
+// Type Coercion- The automatic conversion of values from one type to another
