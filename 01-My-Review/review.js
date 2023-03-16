@@ -52,3 +52,7 @@ const nu = +nStr; // console.log(nu) = 1
 // Number to a String
 let t = 24
 console.log(t.toString()) // output = "24"
+
+// String Methods
+
+// .split()
