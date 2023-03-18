@@ -58,3 +58,5 @@ console.log(t.toString()) // output = "24"
 // String Methods
 
 // .split()
+
+let myStr = "Hi my name is Armani"
