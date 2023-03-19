@@ -60,3 +60,4 @@ console.log(t.toString()) // output = "24"
 // .split()
 
 let myStr = "Hi my name is Armani"
+ myStr.split()
