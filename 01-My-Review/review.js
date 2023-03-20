@@ -63,3 +63,5 @@ let myStr = "Hi my name is Armani"
  myStr.split() // returns
 
  let str3 = "Welcome"
+ console.log(str3[0])
+ console.log(str3[str3.length - 1])
