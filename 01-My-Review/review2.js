@@ -1,4 +1,5 @@
 // Control Flow And Booleans
 
-5 < 10 // true
+5 < 10 // returns true
 
+'b' > 'a' // returns true
