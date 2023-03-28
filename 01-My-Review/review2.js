@@ -21,3 +21,7 @@
 
 
 // Switch Statements
+
+//Arrays
+
+//Loops 
