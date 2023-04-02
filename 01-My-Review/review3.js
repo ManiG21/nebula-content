@@ -1,5 +1,5 @@
 // Functions
 
-//objects
+// Objects
 
-//DOM
+// DOM
