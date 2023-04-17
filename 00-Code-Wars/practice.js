@@ -9,7 +9,7 @@ let reverseString = function(s) {
     }
 };
  
-//or
+// or
 
 let reverseString2 = function(s) {
     for(let i=0; i<s.length/2; i++){
