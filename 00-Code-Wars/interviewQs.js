@@ -9,7 +9,7 @@
 
 // A higher order is a function that takes a function as an argument, or returns a function.
 //  method.map(),.reduce(), .sort(), .map(), .slice(), .reverse(), .slice(), .split(), .slice(), .remove(), 
-// .toUpperCase(), .toLowerCase(), Math.min(), Math.Max(). Math.sqr()
+// .toUpperCase(), .toLowerCase(), Math.min(), Math.Max(). Math.sqr(), Math.random()
 
  //     3 - What is a full stack application? Name an example of a tech stack used that can be used create one.
 
