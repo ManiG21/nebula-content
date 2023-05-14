@@ -8,8 +8,8 @@
 //   2 - What is the definition of a higher order function? What can they be used for? Name 3 different ones.
 
 // A higher order is a function that takes a function as an argument, or returns a function.
-//  method.map(),.reduce(), .sort(), .map(), .slice(), .reverse(), .slice(), .split(), .remove(), 
-// .toUpperCase(), .toLowerCase(), Math.min(), Math.Max(). Math.sqr(), Math.random() 10, .map(), Math.abs()
+//  .map(),.reduce(), .sort(), .slice(), .reverse(), .slice(), .split(), .remove(), 
+// .toUpperCase(), .toLowerCase(), Math.min(), Math.Max(). Math.sqr(), Math.random() 10, .map(), Math.abs(),
 
  //     3 - What is a full stack application? Name an example of a tech stack used that can be used create one.
 
