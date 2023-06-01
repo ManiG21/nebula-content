@@ -13,7 +13,7 @@
 // Math.abs(), .some(), .includes(), .shift(), .unshift(), .splice(), .concat()
 
 //     3 - What is a full stack application? Name an example of a tech stack used that can be used create one.
-
+  // Amazon
 //  A full stack application include both front end(visual aesetic) and backend frameworks + Database. React
 
 //     4 - What is react? What is one advatange has over vanilla javascript?
