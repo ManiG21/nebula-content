@@ -35,6 +35,8 @@ console.log(numStr[4]) //3
 let add5 = 7
 add5 += 5
 // add 5 here
+add5 -= 6
+// subtract 6 here
 console.log(add5) // 12
 let helloWorld = 'Hello'
 // add World here
