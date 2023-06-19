@@ -1,5 +1,7 @@
 // Functions
+True() {
 
+}
 // Objects
 
 // DOM
