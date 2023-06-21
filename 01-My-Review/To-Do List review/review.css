@@ -19,11 +19,47 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 20px;
-    /* border-color: 2px black; */
+    border: solid 5px black;
 }
 
 .To-Do-App h2{
     color: #002765;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: #002765;
+    background: transparent;
+    font-size: 15px;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #002765;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li {
+    
 }
