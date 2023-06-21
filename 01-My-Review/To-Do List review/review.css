@@ -67,6 +67,7 @@ ul li {
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
+    position: relative;
 }
 
 ul li::before {
@@ -75,6 +76,12 @@ ul li::before {
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(images/unchecked.png);
+    /* background-image: url(images/circle.jpg); */
+    /* background-image: url(images/cirlce2.jpg); */
+    /* background-image: url(images/circle2.png); */
+    background-image: url(images/circle3.png);
     background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 8px;
 }
