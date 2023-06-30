@@ -45,7 +45,7 @@ input {
     border: none;
     outline: #002765;
     background: transparent;
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px;
 }
 
@@ -84,4 +84,9 @@ ul li::before {
     background-position: center;
     top: 8px;
     left: 8px;
+}
+
+ul li.checked{
+    color: gray;
+    text-decoration: line-through;
 }
