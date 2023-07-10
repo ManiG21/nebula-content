@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(170deg, #00CED1,#C4BFBF);
+    background: linear-gradient( #00CED1,#C4BFBF);
     padding: 10px;
 }
 
