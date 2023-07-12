@@ -77,6 +77,7 @@ ul li::before {
     width: 28px;
     border-radius: 50%;
     /* background-image: url(images/cirlce2.jpg); */
+    /* background-image: url(images/cirlce2.jpg); */
     /* background-image: url(images/circle2.png); */
     background-image: url(images/circle3.png);
     background-size: cover;
