@@ -90,3 +90,6 @@ ul li.checked{
     color: gray;
     text-decoration: line-through;
 }
+ul li.checked::before{
+    background-image: url(images/circle3.png);
+}
