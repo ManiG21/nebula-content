@@ -90,3 +90,9 @@ ul li.checked{
 ul li.checked::before{
     background-image: url(images/check.png);
 }
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+}
