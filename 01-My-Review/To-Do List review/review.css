@@ -102,6 +102,6 @@ ul li span{
     text-align: center;
 }
 
-ui li span:hover {
+ul li span:hover {
     background: #00CED1;
 }
