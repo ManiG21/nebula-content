@@ -8,7 +8,8 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient( #00CED1,#C4BFBF);
+    /* background: linear-gradient( #00CED1,#C4BFBF); */
+    background: linear-gradient(150deg, #002765,#C4BFBF);
     padding: 10px;
 }
 
@@ -116,5 +117,8 @@ ul li span{
 }
 
 ul li span:hover {
-    background: #00CED1;
+    /* background: #00CED1; */
+    /* background: #002765; */
+    /* background: #babbbc; */
+    background: #f10404;
 }
