@@ -71,7 +71,6 @@ ul li {
     /* list-style: linear-gradient(170deg, #00CED1,#C4BFBF); */
     list-style: none;
     font-size: 17px;
-    font-family: 'Haettenschweiler', sans-serif;
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
@@ -104,8 +103,8 @@ ul li span{
     top: 5px;
     width: 40px;
     height: 40px;
-    font-family: 'Haettenschweiler', sans-serif;
-    font-size: 25px;
+    /* font-family: 'Haettenschweiler', sans-serif; */
+    font-size: 35px;
     color: #555;
     line-height: 40px;
     text-align: center;
