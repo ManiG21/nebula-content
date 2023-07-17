@@ -70,8 +70,9 @@ button {
 ul li {
     /* list-style: linear-gradient(170deg, #00CED1,#C4BFBF); */
     list-style: none;
-    font-size: 17px;
-    padding: 12px 8px 12px 50px;
+    font-size: 28px;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    padding: 2.8px 7px 12px 50px;
     user-select: none;
     cursor: pointer;
     position: relative;
