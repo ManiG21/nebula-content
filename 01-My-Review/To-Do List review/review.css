@@ -8,7 +8,6 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    /* background: linear-gradient( #00CED1,#C4BFBF); */
     background: linear-gradient(150deg, #002765,#C4BFBF);
     padding: 10px;
 }
@@ -32,8 +31,6 @@
     margin-bottom: 30px;
     font-size: 50px;
     text-decoration: underline;
-    /* font-family: 'Haettenschweiler', sans-serif; */
-    /* font-family: 'Courier New', Courier, monospace; */
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
      /* font-style: oblique; */
