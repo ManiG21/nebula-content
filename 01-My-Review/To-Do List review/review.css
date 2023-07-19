@@ -91,9 +91,11 @@ ul li.checked{
     color: gray;
     text-decoration: line-through;
 }
+
 ul li.checked::before{
     background-image: url(images/check.png);
 }
+
 ul li span{
     position: absolute;
     right: 0;
