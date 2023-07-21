@@ -14,10 +14,18 @@
     --h2-font: 2.9rem;
     --p-font: 1.1rem;
 
-    --bg-color: #121b25;
-    --text-color: #ffffff;
+    /* --bg-color: #121b25; */
+    /* --text-color: #ffffff; */
     --main-color: #1aa090;
-    --bg-color: #d6d6d6;
+    --other-color: #d6d6d6;
     
+}
 
+body {
+    background: #121b25;
+    color: #ffffff;
+}
+
+header {
+    
 }
