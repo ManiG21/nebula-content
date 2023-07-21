@@ -39,3 +39,20 @@ header {
     padding: 30px 15%;
     transition: all .50s ease;
 }
+
+.logo img {
+    height: auto;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    padding: 10px 25px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #d6d6d6;
+    transition: all .40s ease;
+}
