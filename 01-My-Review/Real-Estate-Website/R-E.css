@@ -71,5 +71,8 @@ header {
     background: #1aa090;
     color: #ffffff;
     font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: all .40s ease;
 }
 
