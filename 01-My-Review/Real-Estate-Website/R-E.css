@@ -55,3 +55,12 @@ header {
     color: #d6d6d6;
     transition: all .40s ease;
 }
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+.h-btn {
+    display: flex;
+    align-items: center;
+}
