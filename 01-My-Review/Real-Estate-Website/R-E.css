@@ -76,3 +76,9 @@ header {
     transition: all .40s ease;
 }
 
+.h-btn1 {
+    color: #d6d6d6;
+    font-weight: 500;
+    font-size: 18px;
+}
+
