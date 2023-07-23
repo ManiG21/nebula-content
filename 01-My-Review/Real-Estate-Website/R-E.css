@@ -83,6 +83,7 @@ header {
 }
 
 .h-btn2:hover {
+    /* moves the items over by x amount */
     transform: translateX(-7px);
 }
 
