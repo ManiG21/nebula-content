@@ -82,3 +82,7 @@ header {
     font-size: 18px;
 }
 
+.h-btn2:hover {
+    transform: translateX(-7px);
+}
+
