@@ -8,7 +8,7 @@ function addTask(){
         alert("You need to write a task.");
     }
     else{
-        // Pushes txt into list
+        // Pushes text into list
         let li = document.createElement("li");
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
