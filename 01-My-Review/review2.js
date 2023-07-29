@@ -25,6 +25,8 @@
 //Arrays
 
 //Loops 
-for( let i = 0; i < str3.length; i++)
+for( let i = 0; i < str3.length; i++){
+    
+}
 
 // .map() loop through too
