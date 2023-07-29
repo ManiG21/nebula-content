@@ -58,6 +58,7 @@ console.log(t.toString()) // output = "24"
 // String Methods
 
 // .split()
+// .length()
 
 let myStr = "Hi my name is Armani"
  myStr.split() // returns
