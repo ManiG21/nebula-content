@@ -25,3 +25,4 @@
 //Arrays
 
 //Loops 
+for( let i = 0; i < str3.length; i++)
