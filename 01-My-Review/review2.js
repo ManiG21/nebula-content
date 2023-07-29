@@ -29,5 +29,5 @@ for( let i = 0; i < str3.length; i++){
     let upStr = str3.toUpperCase()
     return upStr
 }
-
+console.log(upStr)
 // .map() loop through too
