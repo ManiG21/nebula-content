@@ -62,7 +62,7 @@ console.log(t.toString()) // output = "24"
 // .indexOf()
 
 let myStr = "Hi my name is Armani"
- myStr.split() // returns  each word seperate "Hi" "my"
+ myStr.split() // returns  each word seperate "Hi" "my" "is"
 
  let str3 = "Welcome"
  console.log(str3[0])
