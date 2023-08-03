@@ -66,4 +66,4 @@ let myStr = "Hi my name is Armani"
 
  let str3 = "Welcome"
  console.log(str3[0])
- console.log(str3[str3.length - 1]) //return l
+ console.log(str3[str3.length - 1]) // return l
