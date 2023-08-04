@@ -16,6 +16,7 @@
 //
 
 5 === '5' // returns false
+5 === '5' // returns false
 
 5 !== 5 // returns false
 
