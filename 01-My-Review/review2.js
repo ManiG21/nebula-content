@@ -13,6 +13,7 @@
 50 >= 100 // returns false
 
 'The One' === 'The One' // returns true
+'Him' === 'Him' // returns true
 
 
 5 === '5' // returns false
