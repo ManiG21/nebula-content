@@ -19,7 +19,7 @@
 '3' === 3 // returns false
 
 5 !== 5 // returns false
-5 !== 5 // returns false
+'2' !== '2' // returns false
 
 
 // Switch Statements
