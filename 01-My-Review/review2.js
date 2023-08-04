@@ -11,6 +11,7 @@
 50 <= 100 // returns true
 
 50 >= 100 // returns false
+70 >= 200 // returns false
 
 'The One' === 'The One' // returns true
 'Him' === 'Him' // returns true
