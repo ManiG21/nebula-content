@@ -3,6 +3,7 @@
 // Comparison Operators
 
 5 < 10 // returns true
+45 > 10 // returns true
 
 'b' > 'a' // returns true
 'c' < 'e' // returns true
