@@ -9,6 +9,7 @@
 7 < '14' // returns true *This is type Coercion*
 
 50 <= 100 // returns true
+50 <= 100 // returns true
 
 50 >= 100 // returns false
 70 >= 200 // returns false
