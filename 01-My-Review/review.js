@@ -5,6 +5,7 @@ let sum = 2 + x
 
 // 2. Subtraction
 let sub = x - 2
+// x - 4 
 
 // 3. Division
 let div = x / 2
