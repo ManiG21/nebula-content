@@ -44,8 +44,8 @@ header {
     width: 100%;
 }
 
-.home-img {
-    
+.home-img img {
+    width: 1000px;
 }
 
 .navbar {
