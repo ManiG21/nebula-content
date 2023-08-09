@@ -86,6 +86,9 @@ header {
     font-size: 18px;
 }
 
+.h-btn2 {
+}
+
 .h-btn2:hover {
     /* moves the items over by x amount */
     transform: translateX(-7px);
