@@ -129,6 +129,9 @@ section {
     max-width: 100%;
 }
 
-.h-search form {
-    
+.h-search form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 17px 130px 16px 15px;
+    border: 2px;
 }
