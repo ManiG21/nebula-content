@@ -154,4 +154,7 @@ section {
     display: inline-block;
     padding: 12px 30px;
     background: black;
+    font-size: 16px;
+    cursor: pointer;
+    
 }
