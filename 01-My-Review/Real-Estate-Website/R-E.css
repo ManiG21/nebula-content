@@ -150,7 +150,8 @@ section {
 
 .h-search form input:last-child {
     position: absolute;
+    color: white;
     display: inline-block;
     padding: 12px 30px;
-    background: #1aa090;
+    background: black;
 }
