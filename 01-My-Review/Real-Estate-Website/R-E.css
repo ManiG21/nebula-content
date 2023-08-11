@@ -149,5 +149,8 @@ section {
 }
 
 .h-search form input:last-child {
-    
+    position: absolute;
+    display: inline-block;
+    padding: 12px 30px;
+    background: #1aa090;
 }
