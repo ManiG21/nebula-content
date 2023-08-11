@@ -96,6 +96,8 @@ header {
 .h-btn2:hover {
     /* moves the items over by x amount */
     transform: translateX(-7px);
+    box-shadow: 0px 0px 5px #fff, 0px 0px 15px #868686;
+
 }
 
 #menu-icon {
@@ -156,5 +158,8 @@ section {
     background: black;
     font-size: 16px;
     cursor: pointer;
-    
+    border-radius: .70rem;
+    box-shadow: 0px 0px 5px #fff, 0px 0px 15px #868686;
+    top: 6px;
+    right: 6px;
 }
