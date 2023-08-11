@@ -46,11 +46,12 @@ header {
 }
 
 .home-img {
-    
+    width: 900px;
+    /* height: 640px; */
 }
 
 .home-img img {
-    width: 1000px;
+    width: 100%;
 }
 
 .navbar {
