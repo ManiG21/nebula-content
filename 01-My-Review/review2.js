@@ -39,3 +39,5 @@ for (let i = 0; i < str3.length; i++) {
 }
 console.log(upStr)
 // .map() loop through too
+
+let arr = []
