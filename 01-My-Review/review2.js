@@ -42,4 +42,4 @@ console.log(upStr)
 
 let arr = [1, 3, 5, 6]
 
-let arr2 = arr.map((x) =>)
+let arr2 = arr.map((x) => x * 2)
