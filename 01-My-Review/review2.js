@@ -23,6 +23,7 @@
 
 5 === '5' // returns false
 '3' === 3 // returns false
+'3' === '3' // returns 
 
 5 !== 5 // returns false
 '2' !== '2' // returns false
