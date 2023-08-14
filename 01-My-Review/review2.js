@@ -19,6 +19,7 @@
 
 'The One' === 'The One' // returns true
 'Him' === 'Him' // returns true
+'Him' === 'Hi' // returns 
 
 
 5 === '5' // returns false
