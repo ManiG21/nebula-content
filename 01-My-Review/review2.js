@@ -46,4 +46,4 @@ let arr = [1, 3, 5, 6]
 
 let arr2 = arr.map((x) => x * 2)
 let arrP = arr2.map((b) => b + 2)
-let arrM = arrP.map((b) => b * 2)
+let arrM = arrP.map((c) => b * 2)
