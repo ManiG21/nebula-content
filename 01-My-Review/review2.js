@@ -41,7 +41,6 @@ for (let i = 0; i < str3.length; i++) {
 }
 console.log(upStr)
 // .map() loop through too
-
 let arr = [1, 3, 5, 6]
 
 let arr2 = arr.map((x) => x * 2)
