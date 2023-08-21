@@ -43,6 +43,6 @@ console.log(upStr)
 // .map() loop through too
 let arr = [1, 3, 5, 6]
 let arrP = arr2.map((b) => b + 1)
-let arrM = arrP.map((c) => c - 3)
+let arrM = arrP.map((c) => c - 2)
 let arr2 = arr.map((x) => x * 2)
 let arrD = arrM.map((d) => d / 4)
