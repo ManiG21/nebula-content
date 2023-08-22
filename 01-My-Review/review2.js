@@ -8,6 +8,7 @@
 
 'b' > 'a' // returns true
 'c' < 'e' // returns true
+'c' < 'e' // returns true
 
 7 < '14' // returns true *This is type Coercion*
 '8' > 3 // returns true *This is type Coercion*
