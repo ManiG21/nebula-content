@@ -92,6 +92,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 
+ Adding check img
 ul li.checked::before{
     background-image: url(images/check.png);
 }
