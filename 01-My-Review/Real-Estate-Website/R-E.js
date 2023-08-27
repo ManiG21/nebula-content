@@ -1,1 +1,1 @@
-const header = document.
+const header = document.querySelector
