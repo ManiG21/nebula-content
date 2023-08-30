@@ -172,5 +172,6 @@ section {
 }
 
 header.sticky {
-    padding: ;
+    padding: 8px 15%;
+    background: #101821;
 }
