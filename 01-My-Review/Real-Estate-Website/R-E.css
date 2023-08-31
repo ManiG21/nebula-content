@@ -185,5 +185,6 @@ header.sticky {
 }
 
 .feature-content {
-    
+    display: flex;
+    align-items: center;
 }
