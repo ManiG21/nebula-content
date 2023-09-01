@@ -31,7 +31,6 @@
 
 5 !== 5 // returns false
 '2' !== '2' // returns false
-'2' !== 3 // returns 
 
 // Switch Statements
 
