@@ -37,7 +37,7 @@
 //Arrays
 let arr3 = [4, 5, 6, 7, 8]
 
-let sorArr =
+let sorArr = arr3
 //Loops 
 for (let i = 0; i < str3.length; i++) {
     let upStr = str3.toUpperCase()
