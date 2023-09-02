@@ -38,6 +38,7 @@
 let arr3 = [4, 5, 6, 7, 8]
 
 let sorArr = arr3.sort()
+let revArr = arr3.reverse()
 //Loops 
 for (let i = 0; i < str3.length; i++) {
     let upStr = str3.toUpperCase()
