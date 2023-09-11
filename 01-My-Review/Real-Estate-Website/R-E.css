@@ -199,5 +199,6 @@ header.sticky {
 
 .property-content {
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    align-items: center;
 }
