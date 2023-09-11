@@ -199,4 +199,5 @@ header.sticky {
 
 .property-content {
     display: grid;
+    grid-template-columns: ;
 }
