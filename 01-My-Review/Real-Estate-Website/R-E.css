@@ -198,5 +198,5 @@ header.sticky {
 }
 
 .property-content {
-    
+    display: grid;
 }
