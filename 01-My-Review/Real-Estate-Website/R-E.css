@@ -202,5 +202,5 @@ header.sticky {
     grid-template-columns: repeat(auto-fit, minmax(300px,auto));
     align-items: center;
     gap: 2rem;
-    margin-top: ;
+    margin-top: 4.5;
 }
