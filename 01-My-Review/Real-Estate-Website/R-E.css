@@ -223,6 +223,7 @@ header.sticky {
 }
 
 .row p{
-    font-size: large;
-    margin-bottom: ;
+    font-size: 1.1rem;
+    color: #d6d6d6;
+    margin-bottom: 20px;
 }
