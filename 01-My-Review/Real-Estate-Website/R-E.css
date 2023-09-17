@@ -230,5 +230,5 @@ header.sticky {
 }
 
 .list {
-    
+    display: flex;
 }
