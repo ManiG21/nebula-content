@@ -1,5 +1,19 @@
 header {
     text-align: center;
     font-size: 60px;
-    
+    color: #f6f2f2;
+    background: black;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    color: #f6f2f2;
+    margin-left: 20px;
+}
+
+.home-img {
+    margin: 15px;
 }
