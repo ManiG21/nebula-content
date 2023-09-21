@@ -1,9 +1,5 @@
-/* header {
-    display: flex;
-    width: 100%;
-} */
-
-h1 {
+header {
     text-align: center;
-    background: blue;
+    font-size: 60px;
+    
 }
