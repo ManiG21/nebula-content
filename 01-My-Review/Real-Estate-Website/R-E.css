@@ -134,6 +134,7 @@ section {
 
 .home-text h1{
     font-size: 75px;
+    font-style: italic;
     line-height: 1.2;
     margin-bottom: 40px;
 }
