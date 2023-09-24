@@ -6,7 +6,9 @@
     list-style: none;
     border: none;
     scroll-behavior: smooth;
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: Verdana, Tahoma, sans-serif; */
+    /* font-family: 'Work Sans', sans-serif; */
 }
 
 :root {
@@ -31,6 +33,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -64,14 +67,16 @@ header {
 
 .navbar a {
     padding: 10px 25px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
     color: #d6d6d6;
-    transition: all .40s ease;
+    transition: all .70s ease;
 }
 
 .navbar a:hover {
-    color: #ffffff;
+    box-shadow: 0px 0px 5px #fff, 0px 0px 15px #868686;
+    /* transform: translateY(15px); */
 }
 
 .h-btn {
@@ -240,7 +245,7 @@ header.sticky {
 
 .list a{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .Residence-list i {
@@ -250,7 +255,7 @@ header.sticky {
 
 .center-btn {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .btn {
@@ -262,5 +267,20 @@ header.sticky {
     font-weight: 400;
     border-radius: 20%;
     transition: all .50s ease;
-    
+}
+
+.btn:hover {
+    transform: translateY(-7px) scale(0.9);
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.about-img {
+    height: auto;
+    width: 100%;
 }
