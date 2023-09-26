@@ -221,7 +221,7 @@ header.sticky {
 
 .row img {
     width: 100%;
-    height: auto;
+    height: 300px;
     margin-bottom: 20px;
 }
 
@@ -281,7 +281,7 @@ header.sticky {
 }
 
 .about-img {
-    height: auto;
+    height: 300px;
     width: 100%;
 }
 
