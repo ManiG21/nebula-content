@@ -302,6 +302,7 @@ header.sticky {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #fff;
     text-align: center;
     background: #002765;
     background-size: cover;
