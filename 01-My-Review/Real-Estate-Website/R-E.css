@@ -297,16 +297,56 @@ header.sticky {
     margin-bottom: 50px;
 }
 
-.Subscribe-content {
+/* .Subscribe-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #fff;
     text-align: center;
-    background: #002765;
+    background: url(images/Mansion3.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 20px;
     padding: 6rem 2rem;
+} */
+
+/* .Subscribe-content h2 {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.Subscribe-content h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 27px;
+} */
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    gap: 2rem;
+    /* background: linear-gradient(120deg, #002765,#C4BFBF); */
+    background: #002765;
+    /* background: #101821; */
+
+}
+/* .contact {
+    display: flex;
+    align-items: center;
+   flex-direction: row;
+   
+} */
+
+/* .contact-content {
+    display: flex;
+    flex-direction: row;
+} */
+
+.contact-content h4 {
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+
+.contact-content p {
+    font-size: 25px;
 }
