@@ -304,4 +304,6 @@ header.sticky {
     flex-direction: column;
     text-align: center;
     background: #002765;
+    background-size: cover;
+    background-position: center;
 }
