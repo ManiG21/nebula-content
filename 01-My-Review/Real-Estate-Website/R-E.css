@@ -306,4 +306,6 @@ header.sticky {
     background: #002765;
     background-size: cover;
     background-position: center;
+    border-radius: 20px;
+    padding: 6rem 2rem;
 }
