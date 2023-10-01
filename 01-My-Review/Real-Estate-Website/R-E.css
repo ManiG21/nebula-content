@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -67,8 +69,9 @@ header {
 
 .navbar a {
     padding: 10px 25px;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 400;
+    font-family: 'Marcellus', serif;
     /* font-family: Georgia, Times, 'Times New Roman', serif; */
     color: #d6d6d6;
     transition: all .70s ease;
@@ -139,7 +142,8 @@ section {
 
 .home-text h1{
     font-size: 75px;
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: 'Marcellus', serif;
     line-height: 1.2;
     margin-bottom: 40px;
 }
@@ -181,7 +185,8 @@ section {
 
 header.sticky {
     padding: 8px 15%;
-    background: #101821;
+    /* background: #101821; */
+    background:  #002765;
 }
 
 .feature {
