@@ -46,6 +46,13 @@ header {
     transition: all .50s ease;
 }
 
+header.sticky {
+    padding: 8px 15%;
+    /* background: #101821; */
+    background:  #002765;
+}
+
+
 /* Incedible Estate Logo styling */
 .logo img {
     height: 185px;
@@ -183,11 +190,6 @@ section {
     right: 6px;
 }
 
-header.sticky {
-    padding: 8px 15%;
-    /* background: #101821; */
-    background:  #002765;
-}
 
 .feature {
     padding: 60px 15% 50px;
