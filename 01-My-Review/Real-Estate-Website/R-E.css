@@ -325,7 +325,6 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,auto));
     gap: 2rem;
-    /* background: linear-gradient(120deg, #002765,#C4BFBF); */
     background: #002765;
 }
 
