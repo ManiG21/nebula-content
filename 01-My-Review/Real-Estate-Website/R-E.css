@@ -297,14 +297,6 @@ section {
     margin-bottom: 50px;
 }
 
-/* .Subscribe-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-} */
-
 .contact {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,auto));
