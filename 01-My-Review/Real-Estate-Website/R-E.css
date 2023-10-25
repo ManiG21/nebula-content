@@ -316,4 +316,6 @@ section {
 
 .icons a {
     display: inline-block;
+    font-size: 30px;
+    color: #d6d6d6;
 }
