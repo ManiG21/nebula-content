@@ -315,5 +315,5 @@ section {
 }
 
 .icons a {
-    
+    display: inline-block;
 }
