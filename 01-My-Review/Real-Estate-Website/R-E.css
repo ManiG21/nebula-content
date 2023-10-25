@@ -316,6 +316,13 @@ section {
 
 .icons a {
     display: inline-block;
-    font-size: 30px;
+    font-size: 50px;
     color: #d6d6d6;
+    margin-right: 20px;
+    transition: all .45s ease;
+}
+
+.icons a:hover {
+    transform: translateY(-5px) translateX(-5px);
+    /* color: #d6d6d6; */
 }
