@@ -22,6 +22,7 @@ function addTask(){
 }
 
 // functionality of click on task
+
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked");
