@@ -333,5 +333,26 @@ section {
     section {
         padding: 70px 6% 60px;
     }
-    
+    header.sticky {
+        padding: 7px 6%;
+    }
+    .feature {
+        padding: 40px 6% 30px;
+    }
+}
+
+@media (max-width: 1425px){
+    :root {
+        --h1-font: 4.5rem;
+        --h2-font: 2.6rem;
+        --p-font: 1rem;
+    }
+    .home-img {
+        width: 540px;
+        height: 540px;
+    }
+    .home-img img {
+        width: 100%;
+        height: 100%;
+    }
 }
