@@ -369,3 +369,18 @@ section {
         padding: 40px 5% 30px;
     }
 }
+
+@media (max-width: 1170px){
+    #menu-icon {
+        display: block;
+    }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 270px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
