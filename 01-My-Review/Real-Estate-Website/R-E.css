@@ -323,5 +323,15 @@ section {
 }
 
 .icons a:hover {
-    transform: translateY(-5px) translateX(-5px);
+    transform: translateY(-5px) ;
+}
+
+@media (max-width: 1790px){
+    header {
+        padding: 18px 6%;
+    }
+    section {
+        padding: 70px 6% 60px;
+    }
+    
 }
