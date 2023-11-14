@@ -435,6 +435,10 @@ section {
         padding-top: 20px;
     }
 
+    .home input {
+       
+    }
+
     .about {
         grid-template-columns: 1fr;
     }
