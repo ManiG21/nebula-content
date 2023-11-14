@@ -435,8 +435,8 @@ section {
         padding-top: 20px;
     }
 
-    .home input {
-       
+    .home form {
+       /* margin-left: 15px; */
     }
 
     .about {
