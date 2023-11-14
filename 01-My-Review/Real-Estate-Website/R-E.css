@@ -418,13 +418,14 @@ section {
     .home {
         grid-template-columns: 1fr;
         gap: 1rem;
-        height: 120vh;
+        height: 125vh;
     }
 
     .home-text {
         order: 2;
         width: 100%;
         max-width: 900px;
+        text-align: center;
     }
 
     .home-img {
@@ -449,6 +450,7 @@ section {
     .home {
         gap: 15px;
         height: 110vh;
+        align-items: center;
     }
 
     .home-img {
