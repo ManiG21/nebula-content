@@ -327,6 +327,10 @@ section {
         padding: 70px 6% 60px;
     }
 
+    .navbar {
+        font-size: 26px;
+    }
+
     header.sticky {
         padding: 7px 6%;
     }
@@ -358,8 +362,8 @@ section {
         padding: 15px 5%;
     }
 
-    .navbar {
-        font-size: ;
+    .navbar a {
+        font-size: 25px;
     }
 
     section {
