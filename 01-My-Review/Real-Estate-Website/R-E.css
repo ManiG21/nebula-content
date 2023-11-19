@@ -69,7 +69,6 @@ header.sticky {
     font-size: 32px;
     font-weight: 400;
     font-family: 'Marcellus', serif;
-    /* font-family: Georgia, Times, 'Times New Roman', serif; */
     color: #d6d6d6;
     transition: all .70s ease;
 }
