@@ -330,7 +330,14 @@ section {
         font-size: 26px;
     }
 
-    
+    .feature-content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2rem;
+        margin-top: 4rem;
+    }
 
     header.sticky {
         padding: 7px 6%;
