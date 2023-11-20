@@ -484,5 +484,9 @@ section {
         margin-right: 20px;
     }
 
+    .f-img img {
+        width: 150px;
+        height: auto;
+    }
     
 }
