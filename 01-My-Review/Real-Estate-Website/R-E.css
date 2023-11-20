@@ -454,8 +454,8 @@ section {
         --p-font: 15px;
     }
 
-    header {
-        
+    .navbar  {
+        flex-wrap: wrap;
     }
 
     .home {
@@ -477,6 +477,12 @@ section {
     .home-img {
         width: 300px;
         height: 300px;
-        padding-top: 10px;
+        margin-top: 50px;
     }
+
+    .h-search {
+        margin-right: 20px;
+    }
+
+    
 }
