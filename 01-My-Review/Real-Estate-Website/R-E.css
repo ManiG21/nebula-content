@@ -454,10 +454,24 @@ section {
         --p-font: 15px;
     }
 
+    header {
+        
+    }
+
     .home {
         gap: 15px;
         height: 110vh;
         align-items: center;
+    }
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .home-text {
+        order: 2;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
     }
 
     .home-img {
