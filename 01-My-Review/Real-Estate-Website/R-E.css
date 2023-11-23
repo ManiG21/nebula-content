@@ -424,7 +424,9 @@ section {
         height: 125vh;
     }
 
-    
+    .home form {
+        margin-right: 300px;
+     }
 
     .home-text {
         order: 2;
