@@ -458,7 +458,10 @@ section {
         flex-wrap: wrap;
     }
 
-    
+    .home form {
+        margin-left: 220px;
+     }
+ 
 
     .home {
         gap: 15px;
