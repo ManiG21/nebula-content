@@ -463,11 +463,11 @@ section {
     }
 
     .home form {
-        margin-left:0;
      }
 
      .h-search form {
         position: relative;
+        margin-left:0;
         width: 350px;
         max-width: 100%;
     }
