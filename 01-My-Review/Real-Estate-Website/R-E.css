@@ -424,6 +424,8 @@ section {
         height: 125vh;
     }
 
+    
+
     .home-text {
         order: 2;
         width: 100%;
@@ -458,9 +460,7 @@ section {
         flex-wrap: wrap;
     }
 
-    .home form {
-        margin-left: 220px;
-     }
+ 
  
 
     .home {
