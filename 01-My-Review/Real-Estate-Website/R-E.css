@@ -465,6 +465,12 @@ section {
     .home form {
         margin-left:0;
      }
+
+     .h-search form {
+        position: relative;
+        width: 350px;
+        max-width: 100%;
+    }
  
 
     .home {
