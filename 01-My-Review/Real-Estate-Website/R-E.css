@@ -462,16 +462,12 @@ section {
         flex-wrap: wrap;
     }
 
-    .home form {
-     }
-
      .h-search form {
         position: relative;
         margin-left:0;
         width: 350px;
         max-width: 100%;
     }
- 
 
     .home {
         gap: 15px;
