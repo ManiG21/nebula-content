@@ -516,6 +516,8 @@ section {
         padding-left: 30px;
     }
 
-    .center-left 
+    .center-left h2 {
+        font-size: 43px;
+    }
     
 }
