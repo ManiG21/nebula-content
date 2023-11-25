@@ -511,5 +511,9 @@ section {
     .btn2 {
         margin-left: 105px;
     }
+
+    .about-img {
+        /* padding-left: 30px; */
+    }
     
 }
