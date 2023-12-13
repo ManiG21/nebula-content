@@ -11,7 +11,6 @@
   const isOpen = true
   // 4. Create a variable called carName, assign the value Volvo to it.
   // 5. Create a variable called num, assign the value 50 to it.
-  const num = 50 
   // 6. Display the sum of 5 + 10, using two variables: num1 and num2.
 
   
