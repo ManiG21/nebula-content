@@ -20,8 +20,8 @@
   let myFavoriteFood = "Pizza"
    const Jersey = 21
 
-  // let carName = "Volvo"
-  // const num = 50
+  let carName = "Volvo"
+  const num = 50
 
   const num1 = 5
   const num2 = 10
