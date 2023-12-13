@@ -14,6 +14,9 @@
   // 5. Create a variable called num, assign the value 50 to it.
   const num = 50
   // 6. Display the sum of 5 + 10, using two variables: num1 and num2.
+  const num1 = 5
+  const num2 = 10
+   num3 = 15
 
   
   // 7. Create a variable called num3, assign the addition of num1 and num2 to it.
@@ -23,8 +26,5 @@
    const Jersey = 21
 
 
-  const num1 = 5
-  const num2 = 10
-   num3 = 15
   console.log(num1 + num2) = 15
   const num3 = num1 + num2
