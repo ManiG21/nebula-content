@@ -20,6 +20,7 @@
 
   
   // 7. Create a variable called num3, assign the addition of num1 and num2 to it.
+  const num3 = num1 + num2
 
 
   let myFavoriteFood = "Pizza"
@@ -27,4 +28,3 @@
 
 
   console.log(num1 + num2) = 15
-  const num3 = num1 + num2
